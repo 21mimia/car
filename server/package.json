@@ -1,0 +1,15 @@
+{
+  "name": "car-racer-events",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^4.22.1",
+    "snowflake-sdk": "^2.3.4"
+  }
+}
