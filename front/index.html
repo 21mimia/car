@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>2D Car Racer</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="app">
+    <div class="header">
+      <div class="brand">
+        <div class="title">2D Car Racer</div>
+        <div class="subtitle">Avoid cars • Collect coins • Beat your best</div>
+      </div>
+
+      <div class="hud-right">
+        <div class="badge">Score: <b id="score">0</b></div>
+        <div class="badge">Coins: <b id="coins">0</b></div>
+        <div class="badge">Best: <b id="best">0</b></div>
+
+        <button id="btnStart" class="primary">Start</button>
+        <button id="btnRestart" disabled>Restart</button>
+        <button id="btnPause">Pause</button>
+        <button id="btnFs">Fullscreen</button>
+
+        <div id="status"></div>
+      </div>
+    </div>
+
+    <div class="stage">
+      <!-- IMPORTANT: width/height set the real canvas resolution -->
+      <canvas id="c" width="420" height="680"></canvas>
+    </div>
+  </div>
+
+  <!-- Put your fixed JS file name here -->
+  <script src="./game.js"></script>
+</body>
+</html>
