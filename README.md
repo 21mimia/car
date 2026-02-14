@@ -149,13 +149,6 @@ curl -X POST http://localhost:3000/event \
 
 ---
 
-## 🎥 Demo Video
-
-Watch the demo here:
-👉 [Add Your Video Link Here]
-
----
-
 ## 🧠 Key Learnings
 
 * Designing an event-driven architecture
