@@ -149,19 +149,6 @@ curl -X POST http://localhost:3000/event \
 
 ---
 
-## 📂 Project Structure
-
-```
-game-analytics-project/
-│
-├── frontend/           # Game files
-├── backend/            # Express API
-├── analytics/          # SQL queries
-├── screenshots/        # Dashboard images
-├── package.json
-└── README.md
-```
-
 ## 🎥 Demo Video
 
 Watch the demo here:
